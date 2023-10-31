@@ -13,6 +13,7 @@
 		74E289C92A7C221D003072EC /* Chapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C82A7C221D003072EC /* Chapter3.swift */; };
 		74E289CB2A7C2221003072EC /* Chapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289CA2A7C2221003072EC /* Chapter4.swift */; };
 		74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289CC2A7C222C003072EC /* Chapter5.swift */; };
+		C36732B22AEC034800794187 /* Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36732B12AEC034800794187 /* Chapter6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		74E289C82A7C221D003072EC /* Chapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3.swift; sourceTree = "<group>"; };
 		74E289CA2A7C2221003072EC /* Chapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4.swift; sourceTree = "<group>"; };
 		74E289CC2A7C222C003072EC /* Chapter5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5.swift; sourceTree = "<group>"; };
+		C36732B12AEC034800794187 /* Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				74E289BC2A7C21FC003072EC /* CLIStoryTemplate */,
+				C36732B12AEC034800794187 /* Chapter6.swift */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E289BE2A7C21FC003072EC /* main.swift in Sources */,
+				C36732B22AEC034800794187 /* Chapter6.swift in Sources */,
 				74E289CB2A7C2221003072EC /* Chapter4.swift in Sources */,
 				74E289C52A7C220C003072EC /* Chapter1.swift in Sources */,
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
