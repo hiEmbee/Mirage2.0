@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "36ACDD47-A040-46FE-AC9A-E9D7002CD359"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3893F50-0AC9-49D6-A502-F912F6773858"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLIStoryTemplate/Chapter 1/Chapter1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "chapterOne()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "340FAFFE-1D22-4083-8109-574857914DA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLIStoryTemplate/Chapter 1/Chapter1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "PatientFile"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "340FAFFE-1D22-4083-8109-574857914DA7 - e4a65aa6d1b3535d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CLIStoryTemplate.chapterOne() -&gt; ()"
+                  moduleName = "CLIStoryTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizmaryfernandez/Documents/poppin/bled%F0%9F%A9%B8/Mirage2.0/CLIStoryTemplate/CLIStoryTemplate/Chapter%201/Chapter1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "340FAFFE-1D22-4083-8109-574857914DA7 - e4a65aa6d1b3533c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CLIStoryTemplate.chapterOne() -&gt; ()"
+                  moduleName = "CLIStoryTemplate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizmaryfernandez/Documents/poppin/bled%F0%9F%A9%B8/Mirage2.0/CLIStoryTemplate/CLIStoryTemplate/Chapter%201/Chapter1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "504">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
