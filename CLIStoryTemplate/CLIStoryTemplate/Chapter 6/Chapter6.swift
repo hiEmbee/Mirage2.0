@@ -31,9 +31,9 @@ func chapterSix() {
 //        "Height: 5ft 8in",
 //        "Birthday: May 15th 1899"
 //    ]
-    let melbaArray = ("Name: Melba", "Age: 25", "Weight: 160lbs", "Height: 6ft", "Birthday: November 3, 1906")
-    let theoArray = ( "Name: Theo", "Age:20", "Weight: 184lbs", "Height: 5ft 9in","Birthday: September 10th, 1911")
-    let oliviaArray = ("Name: Olivia", "Age: 32","Weight: 176","Height: 5ft 8in", "Birthday: May 15th 1899")
+    let melbaArray = ["Name: Melba", "Age: 25", "Weight: 160lbs", "Height: 6ft", "Birthday: November 3, 1906"]
+    let theoArray = [ "Name: Theo", "Age:20", "Weight: 184lbs", "Height: 5ft 9in","Birthday: September 10th, 1911"]
+    let oliviaArray = ["Name: Olivia", "Age: 32","Weight: 176","Height: 5ft 8in", "Birthday: May 15th 1899"]
     
     
     
@@ -41,6 +41,8 @@ func chapterSix() {
     print("Melba(Chapter 2)")
     print(melbaArray)
     print(" ")
+    //    patient file 2
+    //    patient file 2
     //    patient file 2
     print("Theo(Chapter 3)")
     print(theoArray)

@@ -14,6 +14,7 @@
 		74E289CB2A7C2221003072EC /* Chapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289CA2A7C2221003072EC /* Chapter4.swift */; };
 		74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289CC2A7C222C003072EC /* Chapter5.swift */; };
 		C36732B22AEC034800794187 /* Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36732B12AEC034800794187 /* Chapter6.swift */; };
+		C36732B82AF1572900794187 /* Chapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36732B72AF1572900794187 /* Chapter7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		74E289CA2A7C2221003072EC /* Chapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4.swift; sourceTree = "<group>"; };
 		74E289CC2A7C222C003072EC /* Chapter5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5.swift; sourceTree = "<group>"; };
 		C36732B12AEC034800794187 /* Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter6.swift; sourceTree = "<group>"; };
+		C36732B72AF1572900794187 /* Chapter7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				74E289BC2A7C21FC003072EC /* CLIStoryTemplate */,
-				C36732B12AEC034800794187 /* Chapter6.swift */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +77,8 @@
 				74E289D02A7C22FF003072EC /* Chapter 3 */,
 				74E289D12A7C2307003072EC /* Chapter 4 */,
 				74E289D22A7C230C003072EC /* Chapter 5 */,
+				C36732B32AF155E800794187 /* Chapter 6 */,
+				C36732B62AF1568100794187 /* Chapter 7 */,
 			);
 			path = CLIStoryTemplate;
 			sourceTree = "<group>";
@@ -120,6 +123,23 @@
 			path = "Chapter 5";
 			sourceTree = "<group>";
 		};
+		C36732B32AF155E800794187 /* Chapter 6 */ = {
+			isa = PBXGroup;
+			children = (
+				C36732B12AEC034800794187 /* Chapter6.swift */,
+			);
+			path = "Chapter 6";
+			sourceTree = "<group>";
+		};
+		C36732B62AF1568100794187 /* Chapter 7 */ = {
+			isa = PBXGroup;
+			children = (
+				C36732B72AF1572900794187 /* Chapter7.swift */,
+			);
+			name = "Chapter 7";
+			path = "Chapter 6";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +168,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					74E289B92A7C21FC003072EC = {
 						CreatedOnToolsVersion = 14.3;
@@ -185,6 +205,7 @@
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
 				74E289C92A7C221D003072EC /* Chapter3.swift in Sources */,
 				74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */,
+				C36732B82AF1572900794187 /* Chapter7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +245,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -284,9 +307,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -308,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3XLQJP2CMY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3XLQJP2CMY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

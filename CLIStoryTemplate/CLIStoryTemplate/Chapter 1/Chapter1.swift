@@ -16,21 +16,30 @@ func chapterOne() {
     print(" ")
     let greeting = "Hotel Mirage"
 
-print("Where do you wish to go? Story or Characters?")
-    let choice = readLine()
-    print(" ")
-
-    let answers = ["Story", "Characters"]
     
-    if choice == ("Story"){
-        print(greeting)
-        print(" ")
-        chapterTwo()
-    } else if choice == "Characters" {
-        chapterSix()
-    } else {
-        print("Try Again.")
+    
+    
+    
+    let isCorrectChoice = false
+
+    while isCorrectChoice == false {
+        print("Where do you wish to go? Story or Characters?")
+            let choice = readLine()
+            print(" ")
+            
+            if choice == ("Story"){
+                print(greeting)
+                print(" ")
+                chapterTwo()
+            } else if choice == "Characters" {
+                chapterSix()
+            } else {
+                print("Try Again.")
+            }
     }
+    
+    
+
     
 //    print("Choose which chapter you wish to start with:")
 //   let destination = readLine()
