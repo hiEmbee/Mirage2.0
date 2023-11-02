@@ -30,7 +30,7 @@ func chapterOne() {
    
     theo.describe()
     olivia.describe()
-    malaya.describe()
+    
     
     
     
