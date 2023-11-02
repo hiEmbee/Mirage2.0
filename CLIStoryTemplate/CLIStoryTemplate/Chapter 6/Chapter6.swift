@@ -80,4 +80,22 @@ func chapterSix() {
         print("Try Again.")
     }
     
+    struct PatientFile {
+        var name: String
+        var age: Int
+        var height: Double
+        var hobbies: String
+        var specialItem: String
+        
+        func describe(){
+//            print("Patient Name: \(name), Age: \(age), Height: \(height))
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
 }

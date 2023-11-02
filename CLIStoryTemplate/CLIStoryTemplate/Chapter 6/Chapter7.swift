@@ -6,7 +6,22 @@
 import Foundation
 
 func chapterSeven() {
-//finale
+    let ending = "The End......?"
+//story goes here
+    print("FINALE")
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    print(" ")
+    print(ending)
 }

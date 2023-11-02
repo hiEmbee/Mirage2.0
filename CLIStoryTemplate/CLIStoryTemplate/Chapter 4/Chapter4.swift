@@ -11,6 +11,22 @@ func chapterFour() {
 print(" ")
 //    story text here
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     let warning = "You are on Chapter 4 already. Try again."
     let isCorrect = false
     

@@ -21,6 +21,11 @@ func chapterTwo() {
     
     
     
+    
+    
+    
+    
+    
     let warning = "You are on Chapter 2 already. Try again."
     let isCorrect = false
 
