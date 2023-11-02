@@ -16,6 +16,7 @@ var joke = "What do you call a bear with no teeth? Type I don't know to continue
 
 let resources = ["food", "water", "soap", "love", "attention"]
 let randomResources = resources.randomElement() ?? ""
+//
 
 func chapterTwo() {
     

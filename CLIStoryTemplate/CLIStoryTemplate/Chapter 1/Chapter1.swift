@@ -6,6 +6,7 @@
 import Foundation
 import SwiftUI
 
+
 let hotel = "Hotel Mirage"
 
 
