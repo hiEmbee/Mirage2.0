@@ -6,7 +6,7 @@
 import Foundation
 import SwiftUI
 
-var hotel = "Hotel Mirage"
+let hotel = "Hotel Mirage"
 
 
 func chapterOne() {
@@ -31,6 +31,7 @@ func chapterOne() {
     let theo = PatientFile(name:"Theo",age: 20, height: 5.9, kin:"n/a", hobbies: "running", specialItem: "Medallion necklace")
     let olivia = PatientFile(name:"Olivia",age: 32, height: 5.8, kin: "mom", hobbies: "puzzles", specialItem: "")
    
+    malaya.describe()
     theo.describe()
     olivia.describe()
     
