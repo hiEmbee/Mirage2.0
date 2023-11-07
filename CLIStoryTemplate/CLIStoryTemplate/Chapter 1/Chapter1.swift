@@ -15,13 +15,8 @@ func chapterOne() {
 
     print(" ")
     let greeting = "Hotel Mirage"
-
-    
-    
-    
     
     let isCorrectChoice = false
-
     while isCorrectChoice == false {
         print("Where do you wish to go? Story or Characters?")
             let choice = readLine()
@@ -37,15 +32,6 @@ func chapterOne() {
                 print("Try Again.")
             }
     }
-    
-    
-
-    
-//    print("Choose which chapter you wish to start with:")
-//   let destination = readLine()
-//    print("     ")
-    
-//    print("Your charecter pov is \(name!).")
     
    
     
