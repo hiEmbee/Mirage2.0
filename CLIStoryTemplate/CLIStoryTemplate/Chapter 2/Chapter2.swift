@@ -17,8 +17,7 @@ import Foundation
     var bDate = 11/03/1906
 var name = "corset"
 
-    //var action: String
-//    var jokes = ["What do you call a bear with no teeth?"]
+
     
     let resources = ["support", "love", "attention"]
     let randomResources = resources.randomElement() ?? ""
@@ -28,11 +27,9 @@ var name = "corset"
 
 func chapterTwo() {
     print("Malaya POV")
-        print(" ") 
-  
+    print(" ")
     
     
-
     
     
     struct PatientFile {
@@ -50,10 +47,12 @@ func chapterTwo() {
     
     malaya.describe()
     
+    sleep(2)
+    
     print("A corset is your special item. This item symbolizes the metaphorical and physical pressure put on Malaya by society and her family")
     print("")
     
-print("Malaya's special item is \(name)")
+    print("Malaya's special item is \(name)")
     
     func introduceMalaya() {
         print("My name is Malaya.")
@@ -70,45 +69,45 @@ print("Malaya's special item is \(name)")
     }
     
     print("")
-
+    
     if let resources = resources.randomElement() {
         print("This Zombie apocalypse is very triggering for me to say the least. The lack of resources makes me think about my childhood.Growing up there was never enough of \(resources).")
     }
+    print("")
     childhoodMalaya()
     print("Let me tell you a joke")
     
-    var _: String
-    var joke = "What do you call a bear with no teeth?"
-    
-    if joke == "What do you call a bear with no teeth?" {
-        _ = ("A gummy bear!")
-    } else if joke == "I don't know"{
-        print("A gummy bear!")
-    }
+//    var _: String
+//    var joke = "What do you call a bear with no teeth?"
+//    
+//    if joke == "What do you call a bear with no teeth?" {
+//        _ = ("A gummy bear!")
+//    } else if joke == "I don't know"{
+//        print("A gummy bear!")
+//    }
     func readJoke() {
         print("What do you call a bear with no teeth?")
     }
-    
-//    let tellJoke = true
-//    while tellJoke == true {
+    let tellJoke = false
+    while tellJoke == false {
+        readJoke()
 //        print("Want to hear a joke?")
-//        let choice = readJoke()
-//        print(" ")
-//        
-//        if choice == ("What"){
-//            print("")
-//            print("A gummy bear!")
-//        } else if choice == "I don't know" {
-//            print("A gummy bear!🧸")
-//        } else {
-//            print("A gummy bear!")
-//        }
+        let choose = readLine()
+        print(" ")
+        if choose == ("What"){
+            print("")
+            print("A gummy bear!")
+        } else if choose == "I don't know" {
+            print("A gummy bear!🧸")
+        } else {
+            print("A gummy bear!")
+        }
+        
+        break
+    }
         
         
-                
-        //write about special item and gender norms, and parents influence
-        
-        print("")
+       print("")
         enum Schedule {
             case sevenAM,eightAM,eightthirtyAM,nineAM, tenAM, elevenAM, twelveAM, onePM, onethirtyPM, threethirtyPM, fivePM, sixPM, sevenPM, seventhrityPM, ninePM
         }
@@ -205,8 +204,8 @@ print("Malaya's special item is \(name)")
                 print("Try Again.")
             }
         }
-    
-    
-    
+        
+        
+        
     }
-
+    
