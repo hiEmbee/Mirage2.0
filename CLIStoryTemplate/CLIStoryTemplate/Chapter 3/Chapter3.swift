@@ -14,26 +14,34 @@ func chapterThree() {
     
     let greeting = "Hotel Mirage"
     let lostLoveName = "Joyce"
+    let joyce = LostLove(name: "Joyce", age: 20, height: 5.7, info: "DECEASED")
 
-//    struct LostLove {
-//        var name: String
-//        var age: Int
-//        var height: Double
-//        var info: String
-//
-//
-//        func infomation(){
-//            print("Patient Name: \(name), Age: \(age), Height: \(height), Info: \(info)
-//        }
-//    }
+    struct LostLove {
+        var name: String
+        var age: Int
+        var height: Double
+        var info: String
+
+        func infomation(){
+            print("Patient Name: \(name), Age: \(age), Height: \(height), Info: \(info)")
+        }
+    }
+
+    let theo = PatientFile(name: "Theo", age: 20, height: 5.9, hobbies: "Running", specialItem: "Medallion Necklace, Bullet, Coin, Ring")
     
-    
-    
-    
-    
-    
-    
-    
+    theo.describe()
+print(" ")
+    struct PatientFile {
+        var name: String
+        var age: Int
+        var height: Double
+        var hobbies: String
+        var specialItem: String
+        
+        func describe(){
+            print("Patient Name: \(name), Age: \(age), Height: \(height), Hobbies: \(hobbies), Special Item Options: \(specialItem)")
+        }
+    }
     
     
     print("What would you like your special Item to be?")
@@ -89,7 +97,6 @@ func chapterThree() {
         }
     }
     
-    
     enum Schedule {
         case sevenAM,eightAM,eightthirtyAM,nineAM, tenAM, elevenAM, twelveAM, onePM, onethirtyPM, threethirtyPM, fivePM, sixPM, sevenPM, seventhrityPM, ninePM
     }
@@ -127,10 +134,18 @@ func chapterThree() {
             print("Bedtime")
         }
     }
-    
-    
+    print(" ")
     func story(){
+        showSchedule(currentSchedule: .nineAM)
+        print(" ")
+        
         print("Being alone is something I'm familiar with so I never get to attached to people. But with \(lostLoveName) it was different. \(lostLoveName) and I, like everyone else got trapped here at \(greeting) when the apocolypse happend. She was the one good thing about this place but she started acting strange. Maybe being stuck in here for so long finally got to her, maybe that's why she went outside, and maybe that's why the foragers handed me the \(chosenItem) I gifted to her. That \(chosenItem) was the most important thing to me...I gave it to her to show her how much she meant to me. Now shes gone.")
+        print(" ")
+        joyce.infomation()
+        print("   ")
+        
+        showSchedule(currentSchedule: .onePM)
+        print(" ")
     }
     
 
