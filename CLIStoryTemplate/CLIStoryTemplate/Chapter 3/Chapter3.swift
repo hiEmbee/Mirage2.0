@@ -140,11 +140,24 @@ print(" ")
         print(" ")
         
         print("Being alone is something I'm familiar with so I never get to attached to people. But with \(lostLoveName) it was different. \(lostLoveName) and I, like everyone else got trapped here at \(greeting) when the apocolypse happend. She was the one good thing about this place but she started acting strange. Maybe being stuck in here for so long finally got to her, maybe that's why she went outside, and maybe that's why the foragers handed me the \(chosenItem) I gifted to her. That \(chosenItem) was the most important thing to me...I gave it to her to show her how much she meant to me. Now shes gone.")
+        
+        sleep(2)
+        
         print(" ")
         joyce.infomation()
+        
+        sleep (2)
+        
         print("   ")
         
         showSchedule(currentSchedule: .onePM)
+        let lunchOptions = ["mac and cheese", "chicken", "soup", "rice and beans", "nothing"]
+        let randomlunchOptions = lunchOptions.randomElement()
+        
+        if let lunchOptions = lunchOptions.randomElement() {
+            print("\(lunchOptions) today")
+        }
+        
         print(" ")
     }
     
