@@ -107,12 +107,12 @@ func chapterTwo() {
                     }
                 }
                 choose(currentChoice:.sad)
-    sleep(2)
     
-    print("A corset is your special item. This item symbolizes the metaphorical and physical pressure put on Malaya by society and her family")
+    
     print("")
     
     print("Malaya's special item is \(name)")
+    print("A corset is your special item. This item symbolizes the metaphorical and physical pressure put on Malaya by society and her family")
     
     func introduceMalaya() {
         print("My name is Malaya.")
